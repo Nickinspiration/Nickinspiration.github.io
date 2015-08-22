@@ -1,5 +1,5 @@
-body{
-	background: url("../assets/img/12.jpg") no-repeat center center fixed; 
+.bg{
+	background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url("../assets/img/12.jpg") no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
 	 -o-background-size: cover;
@@ -17,6 +17,9 @@ body{
 	font-size:20px;
 	padding:30px 45px;
 }
+.pink{
+	color:pink;
+}
 
 .wrapper {
     text-align: center;
@@ -32,6 +35,10 @@ body{
 
 .red{
 	color:#FF3232;
+}
+
+.whitetext{
+	color:white;
 }
 
 .white{
