@@ -1,0 +1,68 @@
+body{
+	background: url("../assets/img/12.jpg") no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	 font-family: 'Montserrat', sans-serif;
+}
+
+.myButton {
+	background-color:pink;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	display:inline-block;
+	color:white;
+	font-size:20px;
+	padding:30px 45px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.text-justify{
+	text-align: justify;
+}
+
+.black{
+	color:black;
+}
+
+.red{
+	color:#FF3232;
+}
+
+.white{
+	background-color:#FF3232;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px;
+	border-radius:14px;
+	display:inline-block;
+	color:white;
+	font-size:15px;
+	padding:15px 22.5px;
+}
+
+.white-back{
+	background-color: #FF3232;
+}
+a:hover
+{
+  text-decoration:none;
+}
+
+.top-main{
+	margin-top: 200px;
+    
+}
+
+.lil_left{
+	margin-left:20px;
+}
+
+.bigger_text{
+	font-size: 55px;
+}
+
