@@ -1,10 +1,13 @@
 .bg{
-	background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url("../assets/img/12.jpg") no-repeat center center fixed; 
+	background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5)), url("../assets/img/8.jpg") no-repeat center center fixed; 
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
 	 -o-background-size: cover;
 	 background-size: cover;
 	 font-family: 'Montserrat', sans-serif;
+	 font-weight: 700;
+	 height:170vh;
+	 background-color: pink;
 }
 
 .myButton {
@@ -17,39 +20,18 @@
 	font-size:20px;
 	padding:30px 45px;
 }
-.pink{
-	color:pink;
-}
 
 .wrapper {
     text-align: center;
-}
 
-.text-justify{
-	text-align: justify;
 }
 
 .black{
 	color:black;
 }
 
-.red{
-	color:#FF3232;
-}
-
 .whitetext{
 	color:white;
-}
-
-.white{
-	background-color:#FF3232;
-	-moz-border-radius:14px;
-	-webkit-border-radius:14px;
-	border-radius:14px;
-	display:inline-block;
-	color:white;
-	font-size:15px;
-	padding:15px 22.5px;
 }
 
 .white-back{
@@ -64,6 +46,9 @@ a:hover
 	margin-top: 200px;
     
 }
+.button_down{
+	margin-top: 100px;
+}
 
 .lil_left{
 	margin-left:20px;
@@ -71,5 +56,10 @@ a:hover
 
 .bigger_text{
 	font-size: 55px;
+	margin-top: -130px;
+}
+
+.below_text{
+	font-size: 45px;
 }
 

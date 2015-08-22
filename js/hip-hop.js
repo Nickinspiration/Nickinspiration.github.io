@@ -1,3 +1,7 @@
 function changeBackground(){
-    document.body.style.backgroundImage = "url('assets/img/nicki-main.jpg')";
+
+
+    document.getElementById('background_image').style.backgroundImage="url('assets/img/1.jpg')";
+
 }
+
