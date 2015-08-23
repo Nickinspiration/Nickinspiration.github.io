@@ -15,6 +15,11 @@
 }
 
 
+.container{
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
 
 .myButton {
 	background-color:#F24095;
@@ -23,8 +28,10 @@
 	border-radius:28px;
 	display:inline-block;
 	color:white;
-	font-size:20px;
+	font-size:25px;
 	padding:30px 45px;
+	margin-top: 20px;
+
 }
 
 .wrapper {
@@ -49,23 +56,15 @@ a:hover
 }
 
 .top-main{
-	margin-top: 200px;
+	margin-top: 175px;
     
-}
-.button_down{
-	margin-top: 100px;
-}
-
-.lil_left{
-	margin-left:20px;
 }
 
 
 
 .below_text{
-	font-size: 25px;
+	font-size: 40px;
 	text-align: center;
-	margin-right: 35px;
-	margin-left: 35px;
+
 }
 
