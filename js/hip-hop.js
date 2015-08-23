@@ -5,8 +5,17 @@ function changeBackground(){
 
     var photo_str ="assets/img/"+photo_num+".jpg";
 
-    document.body.style.background = "linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.5)), url("+photo_str+") no-repeat center center fixed"; 
-    document.body.style.backgroundSize ="cover";
+    document.getElementById("background_image").style.background = "linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.5)), url("+photo_str+") no-repeat center center fixed"; 
+    document.getElementById("background_image").style.backgroundSize ="cover";
+
+
+    var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
+
+    if(iOS){
+        document.getElementById("background_image").style.cssText = "position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%;"
+    }
+
+
 
     changeQuote();
 
