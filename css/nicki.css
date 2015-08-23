@@ -11,6 +11,7 @@
 	 font-weight: 700;
 	 height:170vh;
 	 background-color: #F24095;
+
 }
 
 
@@ -64,5 +65,7 @@ a:hover
 .below_text{
 	font-size: 25px;
 	text-align: center;
+	margin-right: 35px;
+	margin-left: 35px;
 }
 
