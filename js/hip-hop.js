@@ -5,8 +5,8 @@ function changeBackground(){
 
     var photo_str ="assets/img/"+photo_num+".jpg";
 
-    document.getElementById("background_image").style.background = "linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.5)), url("+photo_str+") no-repeat center center fixed"; 
-    document.getElementById("background_image").style.backgroundSize ="cover";
+    document.body.style.background = "linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.5)), url("+photo_str+") no-repeat center center fixed"; 
+    document.body.style.backgroundSize ="cover";
 
     changeQuote();
 
