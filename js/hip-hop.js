@@ -31,7 +31,7 @@ function changeQuote(){
     "I want to show little girls that the possibilities are endless. That's my goal - to not only do it for myself, but to show them I can do whatever I put my mind to.",
     "I think a child may be the only thing that could give me true happiness.",
     "I do have a few personalities. When people started making a big deal out of it, I started making names for these people.",
-    "When I was younger I didn't have much financially, like we couldn't afford a lot of stuff and I remember seeing little girls' rooms on TV and they'd all be pink. I didn't have my own room, I shared with my brother, so I would have this daydream and imagine that one day I could have my own room and it would all be pink, like Cinderella's.",
+    "When I was younger I didn't have much financially, and I remember seeing little girls' rooms on TV and they'd all be pink. I didn't have my own room, I shared with my brother, so I would have this daydream and imagine that one day I could have my own room and it would all be pink, like Cinderella's.",
     "You wanna know what scares people? Success. When you don't make moves and when you don't climb up the ladder, everybody loves you because you're not competition.",
     "People always want to talk about who I was, but I've always been singing, always been experimenting with pop music.",
     "I vowed that I'd never allow any man to control me or to be an alcoholic or anything like that around me, because I don't want my children seeing that.",
