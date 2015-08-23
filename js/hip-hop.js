@@ -1,9 +1,9 @@
 function changeBackground(){
 
-	var photo_num = Math.floor((Math.random() * 40) + 1);
+    var photo_num = Math.floor((Math.random() * 40) + 1);
 
 
-	var photo_str ="assets/img/"+photo_num+".jpg";
+    var photo_str ="assets/img/"+photo_num+".jpg";
 
     document.getElementById("background_image").style.background = "linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.5)), url("+photo_str+") no-repeat center center fixed"; 
     document.getElementById("background_image").style.backgroundSize ="cover";
@@ -15,7 +15,7 @@ function changeBackground(){
 
 function changeQuote(){
 
-	var nicki_text = [
+    var nicki_text = [
     "My advice to women in general: Even if you're doing a nine-to-five job, treat yourself like a boss. Not arrogant, but be sure of what you want - and don't allow people to run anything for you without your knowledge.",
     "Maybe your weird is my normal. Who's to say?",
     "My happiness doesn't come from money or fame. My happiness comes from seeing life without struggle.",
@@ -51,24 +51,24 @@ function changeQuote(){
     "All these haters mad because I'm so established They know I'm a beast yeah I'm a savage.",
     "I feel free, I feel freedom Why they mad? You should see them Burn an L cause it's crazy in here Crazy in here, crazy in here.",
     "Starships were meant to fly Hands up and touch the sky Can't stop cause we're so high Let's do this one more time.",
-	"Cause I pull up and I'm stuntin but I ain't a stuntman Yes I'm rockin Jordans but I ain't a jumpman.",
-	"Yo, I had to reinvent, I put the V in-vent put the heat in vents, man, I've been competing since.",
-	"I feel one minute, yeah, we got it then it's gone While we keep waiting for a moment to live for.",
-	"This is what I gotta do to keep me from falling Stalling the truth, who knew what you'd do, if I let you in?",
-	"Ain't no cruise control, you 'bout to lose control Ain't no smilin' faces here, we slammin' doors and dishes.",
-	"I'm losin' a thing I thought I'd win And I'm coming undone, cause the tears don't end.",
-	"You got that legendary, this is fake, scary Got me seein' them fireworks, I'm on my Kate Perry.",
-	"I just figured if you saw me, if you looked in my eyes You'd remember our connection and be freed from the lies.",
-	"Live in the present, that gift is for the gifted.",
-	"I ain't never need a man, to take care of me."
-	];
+    "Cause I pull up and I'm stuntin but I ain't a stuntman Yes I'm rockin Jordans but I ain't a jumpman.",
+    "Yo, I had to reinvent, I put the V in-vent put the heat in vents, man, I've been competing since.",
+    "I feel one minute, yeah, we got it then it's gone While we keep waiting for a moment to live for.",
+    "This is what I gotta do to keep me from falling Stalling the truth, who knew what you'd do, if I let you in?",
+    "Ain't no cruise control, you 'bout to lose control Ain't no smilin' faces here, we slammin' doors and dishes.",
+    "I'm losin' a thing I thought I'd win And I'm coming undone, cause the tears don't end.",
+    "You got that legendary, this is fake, scary Got me seein' them fireworks, I'm on my Kate Perry.",
+    "I just figured if you saw me, if you looked in my eyes You'd remember our connection and be freed from the lies.",
+    "Live in the present, that gift is for the gifted.",
+    "I ain't never need a man, to take care of me."
+    ];
 
-	var nickibar_length = nicki_text.length;
+    var nickibar_length = nicki_text.length;
 
-	var text_num = Math.floor((Math.random() * nickibar_length) );
+    var text_num = Math.floor((Math.random() * nickibar_length) );
 
 
-	document.getElementById("nicki_text").innerHTML = nicki_text[text_num];
+    document.getElementById("nicki_text").innerHTML = nicki_text[text_num];
 
 
 
@@ -76,6 +76,5 @@ function changeQuote(){
 
 
 }
-
 
 
