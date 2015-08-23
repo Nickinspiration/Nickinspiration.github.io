@@ -11,16 +11,6 @@ function changeBackground(){
 
     var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
 
-    if(iOS){
-        document.getElementById("background_image").style.cssText = "-webkit-background-size: cover;
-    -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     font-family: 'Montserrat', sans-serif;
-     font-weight: 700;
-     height:170vh;
-     background-color: #F24095; position: fixed; top: 0; left: 0; min-width: 100%; min-height: 100%;"
-    }
 
 
 
