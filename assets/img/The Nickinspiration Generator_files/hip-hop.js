@@ -9,6 +9,7 @@ function changeBackground(){
     document.getElementById("background_image").style.backgroundSize ="cover";
 
 
+    var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
 
 
 
